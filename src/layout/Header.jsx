@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar/Navbar'
 
 const Header = () => {
   return (
-    <div>Bekzod</div>
+    <div>
+      <Navbar/>
+    </div>
   )
 }
 
