@@ -1,14 +1,12 @@
-import React from "react";
-import Navbar from "../components/Navbar/Navbar";
-import SwiperHeader from "../components/Swiper/Swiper";
-import Sets from "../components/Sets/Sets";
+import React from 'react'
+import Navbar from '../components/Navbar/Navbar'
+import Header from '../layout/Header'
 
 const Home = () => {
-  return (
-    <>
-      <SwiperHeader />
-    </>
-  )
-};
-
+    return (
+        <div>
+            <Header/>
+        </div>
+    )
+}
 export default Home;
