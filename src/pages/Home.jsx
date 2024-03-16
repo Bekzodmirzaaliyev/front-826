@@ -4,7 +4,11 @@ import SwiperHeader from "../components/Swiper/Swiper";
 import Sets from "../components/Sets/Sets";
 
 const Home = () => {
-  return <div></div>;
+  return (
+    <>
+      <SwiperHeader />
+    </>
+  )
 };
 
 export default Home;
