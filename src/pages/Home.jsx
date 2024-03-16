@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
-import Footer from '../layout/Footer'
 
 const Home = () => {
     return (
-        <>
+        <div>
             
-        </>
+        </div>
     )
 }
 
-export default Home
+export default Home;
