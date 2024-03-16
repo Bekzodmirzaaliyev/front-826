@@ -7,14 +7,19 @@ import Main from './layout/Main'
 import Footer from './layout/Footer'
 import Setimages from './layout/Setimages'
 
+
 function App() {
 
   return (
     <>
-    <Setimages/>
+      <Setimages />
       <Header />
       <Main />
       <Footer />
+      <Header />
+      <Main />
+      <Footer />
+
     </>
   )
 }
