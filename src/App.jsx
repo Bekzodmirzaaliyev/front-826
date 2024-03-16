@@ -5,11 +5,13 @@ import './App.css'
 import Header from './layout/Header'
 import Main from './layout/Main'
 import Footer from './layout/Footer'
+import Setimages from './layout/Setimages'
 
 function App() {
 
   return (
     <>
+    <Setimages/>
       <Header />
       <Main />
       <Footer />
