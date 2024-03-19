@@ -3,12 +3,10 @@ import Navbar from "../components/Navbar/Navbar";
 import SwiperHeader from "../components/Swiper/Swiper";
 import Sets from "../components/Sets/Sets";
 import News from "../components/News/News";
-import React from 'react'
 
 const Header = () => {
   return (
     <div>
-      <SwiperHeader />
       <Navbar />
       <Sets />
       <News />
