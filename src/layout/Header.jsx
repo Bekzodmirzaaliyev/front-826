@@ -8,6 +8,8 @@ const Header = () => {
     <div>
       <SwiperHeader/>
       <Navbar />
+      <Sets/>
+      <News/>
     </div>
   );
 };
