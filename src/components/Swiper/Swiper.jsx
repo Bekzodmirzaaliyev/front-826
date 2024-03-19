@@ -4,35 +4,27 @@ import "swiper/swiper-bundle.css";
 
 export default function SwiperHeader() {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full  flex justify-center">
       <Swiper
-        className="w-full"
+        className="w-full h-[47px]"
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         }}
       >
         <SwiperSlide className="w-full">
-          <div className="swiper-slide bg-[#D4E9F9] h-[50px] flex items-center justify-center gap-12">
+          <div className="swiper-slide bg-[#D4E9F9] flex items-center gap-12">
             <div className="slide-logo relative">
-              <img
-                className="w-[32px] h-[31px]"
-                src="src/components/Swiper/images/Group 108.png"
-                alt=""
-              />
-              <img
-                className="absolute bottom-0 left-3 w-[45px] h-[17px]"
-                src="src/components/Swiper/images/Group 110.png"
-                alt=""
-              />
-            </div>
+              <img className="w-[32px] h-[31px]" src="src/components/Swiper/images/Group 108.png" alt=""/>
+              <img className="absolute bottom-0 left-3 w-[47px] h-[17px]" src="src/components/Swiper/images/Group 110.png" alt=""/>
+            </div>   
             <p className="text-lg font-normal">
               МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className="w-full">
-          <div className="swiper-slide bg-[#D4E9F9] h-[50px] flex items-center justify-center gap-5">
+          <div className="swiper-slide bg-[#D4E9F9] h-[47px] flex items-center justify-center gap-5">
             <div className="slide-logo relative">
               <img
                 className="w-[41px] h-[40px]"
@@ -44,7 +36,7 @@ export default function SwiperHeader() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="w-full">
-          <div className="swiper-slide bg-[#D4E9F9] h-[50px] flex items-center justify-center gap-7">
+          <div className="swiper-slide bg-[#D4E9F9] h-[47px] flex items-center justify-center gap-7">
             <div className="slide-logo relative">
               <img
                 className="w-[45px] h-[35px]"
@@ -58,7 +50,7 @@ export default function SwiperHeader() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="w-full">
-          <div className="swiper-slide bg-[#D4E9F9] h-[50px] flex items-center justify-center gap-7">
+          <div className="swiper-slide bg-[#D4E9F9] h-[47px] flex  items-center justify-center gap-7">
             <div className="slide-logo relative">
               <img
                 className="w-[45px] h-[31px]"
