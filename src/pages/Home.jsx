@@ -9,7 +9,6 @@ const Home = () => {
   return <div>
     <SwiperHeader/>
     <Header/>
-    <Sets/>
     <Cared/>
   </div>;
 };
