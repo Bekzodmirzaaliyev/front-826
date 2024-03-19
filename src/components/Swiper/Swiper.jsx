@@ -13,7 +13,7 @@ export default function SwiperHeader() {
         }}
       >
         <SwiperSlide className="w-full ">
-          <div className="swiper-slide bg-[#D4E9F9] flex items-center gap-12">
+          <div className="swiper-slide bg-[#D4E9F9] h-[50px] flex items-center justify-center gap-12">
             <div className="slide-logo relative">
               <img className="w-[32px] h-[31px]" src="src/components/Swiper/images/Group 108.png" alt=""/>
               <img className="absolute bottom-0 left-3 w-[47px] h-[17px]" src="src/components/Swiper/images/Group 110.png" alt=""/>
