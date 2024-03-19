@@ -4,10 +4,11 @@ import Main from '../layout/Main';
 
 
 const Home = () => {
-  return <div>
+  return 
+  <>
     <Header/>
-    <Main />
-  </div>;
+    <Main/>
+  </>;
 };
 
 export default Home
