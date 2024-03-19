@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import SwiperHeader from "../components/Swiper/Swiper";
+import Sets from "../components/Sets/Sets";
 
 const Header = () => {
-  return (
-    <div></div>
-  )
-}
+  return <div>
+    <SwiperHeader />
+    <Navbar/>
+    <Sets/>
+  </div>;
+};
 
-export default Header
+export default Header;
