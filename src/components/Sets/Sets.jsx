@@ -18,8 +18,8 @@ const Sets = () => {
 
   return (
     <div>
-      <h2 className="text-3xl font-semibold pb-4 text-center border-t border-gray-300">
-        <span className="bg-white px-3">Популярные наборы</span>
+      <h2 className="text-3xl font-semibold pb-4 text-center">
+        <span className="">Популярные наборы</span>
       </h2>
       <div className="flex flex-wrap justify-center">
         {set.map((item, index) => (

@@ -1,8 +1,11 @@
 import React from 'react'
+import Holiday from '../components/Holiday/Holiday'
 
 const Main = () => {
   return (
-    <div></div>
+    <main>
+      <Holiday />
+    </main>
   )
 }
 
