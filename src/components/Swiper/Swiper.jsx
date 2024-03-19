@@ -12,7 +12,7 @@ export default function SwiperHeader() {
           prevEl: ".swiper-button-prev",
         }}
       >
-        <SwiperSlide className="w-full">
+        <SwiperSlide className="w-full ">
           <div className="swiper-slide bg-[#D4E9F9] h-[50px] flex items-center justify-center gap-12">
             <div className="slide-logo relative">
               <img

@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
             </div>
         </navbar>
-        <navbar className='flex mx-auto mt-[18px]'>
+        <navbar className='flex mx-auto mt-[18px] flex-col'>
             <div className="flex items-center  mx-auto gap-[30px]">
               <ul className="flex gap-[30px]">
                 <li className="flex gap-1">
