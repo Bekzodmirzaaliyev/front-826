@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { GrShop } from "react-icons/gr"; // Import the react-icons library if you haven't already
 
-export default function App() {
+export default function News() {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
@@ -98,3 +98,4 @@ export default function App() {
     </div>
   );
 }
+
