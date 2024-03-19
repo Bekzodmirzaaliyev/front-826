@@ -7,8 +7,6 @@ const Header = () => {
   return (
     <div>
       <Navbar />
-      <Sets/>
-      <News/>
     </div>
   );
 };
